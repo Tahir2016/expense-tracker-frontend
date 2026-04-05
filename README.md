@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Expense Tracker
 
-## Getting Started
+A modern Expense Tracker web application to manage daily expenses, visualize spending patterns, and improve financial awareness.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>
+  <img src="https://img.shields.io/badge/Next.js-16-black?logo=next.js" />
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
+  <img src="https://img.shields.io/badge/TailwindCSS-v4-38B2AC?logo=tailwind-css" />
+  <img src="https://img.shields.io/badge/Recharts-DataViz-orange" />
+  <img src="https://img.shields.io/badge/Axios-HTTPClient-purple" />
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- ➕ Add, Edit & Delete Transactions
+- 📊 Monthly & Yearly Analytics
+- 🥧 Category-wise Charts
+- 💳 Expense Tracking (Online / Cash)
+- 🔍 Filter Transactions
+- 📱 Fully Responsive UI
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Project Motivation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I built this Expense Tracker to solve the problem of managing daily expenses efficiently. Many users struggle to track where their money goes, so this app provides a simple and visual way to monitor spending habits.
 
-## Deploy on Vercel
+Through this project, I focused on:
+- Building a clean and responsive UI
+- Implementing real-time data updates
+- Visualizing financial data using charts
+- Deploying a full-stack application in production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Live Demo
+
+👉 https://expense-tracker-frontend.vercel.app
+
+---
+
+## 📁 Project Structure
