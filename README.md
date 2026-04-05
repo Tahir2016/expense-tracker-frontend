@@ -19,7 +19,7 @@ A modern Expense Tracker web application to manage daily expenses, visualize spe
 ## ✨ Features
 
 - ➕ Add, Edit & Delete Transactions
-- 📊 Monthly & Yearly Analytics
+- 📊 Monthly, Quaterly & Yearly Analytics
 - 🥧 Category-wise Charts
 - 💳 Expense Tracking (Online / Cash)
 - 🔍 Filter Transactions
