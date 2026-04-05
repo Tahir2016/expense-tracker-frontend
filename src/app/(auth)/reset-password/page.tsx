@@ -2,9 +2,9 @@
 import API from '@/lib/api';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
-import React, { useState } from 'react'
+import React, { Suspense, useState } from 'react'
 
-const ResetPassword = () => {
+const ResetPasswordForm = () => {
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [loading, setLoading] = useState(false);
@@ -156,6 +156,14 @@ const ResetPassword = () => {
         </div>
       </div>
     </div>
+  )
+}
+
+const ResetPassword = () => {
+  return (
+    <Suspense>
+      <ResetPasswordForm />
+    </Suspense>
   )
 }
 
